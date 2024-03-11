@@ -25,17 +25,62 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 Muntar el servidor amb dos discos.
 
 
-## Desactivar que **```Windows Update```** descarregui automàticament els paquets a instal·lar.
 
-![Alt text](./img/image-29.png)
+A la pàgina oficial de [*PHP For Windows: Binaries and sources Releases*](https://windows.php.net/download/) podeu veure el següent apartat.
 
-![Alt text](./img/image-30.png)
+> ### Which version do I choose?
+> 
+> #### **IIS**
+>
+> If you are using **PHP as FastCGI with IIS** you should use the **Non-Thread Safe (NTS)** versions of **PHP**.
+>
+> (...)
+>
+> #### **VC15 & VS16**
+>
+> More recent versions of PHP are built with **`VC15`** or **`VS16`** (**Visual Studio 2017** or **2019** compiler respectively) and include improvements in performance and stability.
+> 
+> - The **`VC15`** and **`VS16`** builds require to have the **Visual C++ Redistributable for Visual Studio 2015-2019 x64** or **x86** installed
+> 
 
-![Alt text](./img/image-31.png)
+Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina oficial de [*windows.php.net - /downloads/releases/archives/*](https://windows.php.net/downloads/releases/archives/).
 
-![Alt text](./img/image-32.png)
+[php-7.4.0-nts-Win32-vc15-x64.zip](https://windows.php.net/downloads/releases/archives/php-7.4.0-nts-Win32-vc15-x64.zip)
 
-![Alt text](./img/image-34.png)
+<hr>
+
+## Recomanació
+
+És recomanable desactivar que **```Windows Update```** descarregui automàticament els paquets a instal·lar.
+
+<details><summary>Pitja per veure els passos de la recomanació.</summary>
+
+* Executa **`Windows PowerShell`** com **administrador**.
+
+![Alt text](./img/01-cmd-rum-as-administrator.png)
+
+* Executa la comanda **`sconfig`**.
+
+![Alt text](./img/02-type-sconfig.png)
+
+* Apareix el **menú principal** de **`sconfig`**.
+
+![Alt text](./img/03-sconfig-main-menu.png)
+
+* Escollir l'opció **`5`** que és **`Update setting`**.
+
+![Alt text](./img/04-sconfig-select-5-update-settings.png)
+
+* Pitja **`m`** per indicar que es vol escollir **`(M)anual updates `*.
+
+![Alt text](./img/05-sconfig-5-select-manual.png)
+
+* Tornem al **menú principal** de **`sconfig`**, i escollim l'opció **`15`** (**`15) Exit to command line (PowerShell)`**), per sortir. 
+
+![Alt text](./img/06-sconfig-select-15-exit.png)
+</details>
+
+<hr>
 
 <!-- 
 > El contingut del fitxer [**``exercici.php``**](./exercici.php) és el següent:
