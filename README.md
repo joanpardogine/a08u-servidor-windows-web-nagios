@@ -24,6 +24,8 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 
 Muntar el servidor amb dos discos.
 
+<!--
+
 ### Pistes
 
 
@@ -47,6 +49,8 @@ A la pàgina oficial de [*PHP For Windows: Binaries and sources Releases*](https
 Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina oficial de [*windows.php.net - /downloads/releases/archives/*](https://windows.php.net/downloads/releases/archives/).
 
 [php-7.4.0-nts-Win32-vc15-x64.zip](https://windows.php.net/downloads/releases/archives/php-7.4.0-nts-Win32-vc15-x64.zip)
+
+-->
 
 <hr>
 
