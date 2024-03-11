@@ -24,6 +24,7 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 
 Muntar el servidor amb dos discos.
 
+### Pistes
 
 
 A la pàgina oficial de [*PHP For Windows: Binaries and sources Releases*](https://windows.php.net/download/) podeu veure el següent apartat.
