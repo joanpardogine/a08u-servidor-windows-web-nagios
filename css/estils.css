@@ -1,0 +1,19 @@
+code{
+    background-color: lightgrey;
+    font-weight: bold;
+    font-size: larger;
+} 
+
+img{
+    border: solid 4px black!important;
+    padding: 4px;
+    margin: 5px;
+} 
+
+.fons-gris{
+    background-color: lightgrey;
+}
+
+#content{
+    float: left;
+}

@@ -82,6 +82,16 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 <hr>
 
+### Enllaços d'interes
+
+* [Instalación de PHP en IIS](https://techexpert.tips/es/windows-es/instalar-php-en-windows-server-iis/)
+
+* [Tutorial de Windows 2012 - Instalación de IIS](https://techexpert.tips/es/windows-es/instalacion-de-iis-en-windows/)
+
+* [Tutorial de Windows - Instalación de Python](https://techexpert.tips/es/iis-es/habilitar-python-en-iis/)
+
+<hr>
+
 <!-- 
 > El contingut del fitxer [**``exercici.php``**](./exercici.php) és el següent:
 >```html

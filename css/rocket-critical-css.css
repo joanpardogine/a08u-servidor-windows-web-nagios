@@ -1,0 +1,268 @@
+
+.wpml-ls-flag {
+  display: inline-block
+}
+
+.wpml-ls-flag {
+  display: inline-block
+}
+
+.wpml-ls-menu-item .wpml-ls-flag {
+  display: inline;
+  vertical-align: baseline
+}
+
+ul .wpml-ls-menu-item a {
+  display: flex;
+  align-items: center
+}
+
+* {
+  box-sizing: border-box
+}
+
+input[type=search],
+input[type=submit] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0
+}
+
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: var(--body_typography-color);
+  font-size: var(--body_typography-font-size, 16px);
+  font-family: var(--body_typography-font-family, inherit)
+}
+
+#boxed-wrapper {
+  overflow-x: hidden;
+  overflow-x: clip
+}
+
+#wrapper {
+  overflow: visible
+}
+
+img {
+  border-style: none;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto
+}
+
+a {
+  text-decoration: none
+}
+
+input {
+  font-family: var(--body_typography-font-family, inherit);
+  vertical-align: middle;
+  color: var(--body_typography-color)
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  border-style: none
+}
+
+#main {
+  padding: 55px 10px 45px;
+  clear: both
+}
+
+#content {
+  width: 71.1702128%;
+  float: left;
+  min-height: 1px
+}
+
+.post {
+  margin-bottom: 65px
+}
+
+.single-post .post {
+  margin-bottom: 0
+}
+
+.s {
+  float: none
+}
+
+.post-content p {
+  margin: 0 0 20px
+}
+
+.layout-wide-mode #wrapper {
+  width: 100%;
+  max-width: none
+}
+
+#sliders-container {
+  position: relative
+}
+
+.fusion-privacy-bar {
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  display: none;
+  max-height: 100vh;
+  overflow: auto;
+  scrollbar-width: none
+}
+
+.fusion-privacy-bar::-webkit-scrollbar {
+  display: none
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-acceptance {
+  width: auto
+}
+
+.fusion-privacy-bar-bottom {
+  bottom: 0
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -15px
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-main .fusion-privacy-bar-acceptance,
+.fusion-privacy-bar .fusion-privacy-bar-main>span {
+  margin: 0 15px
+}
+
+.searchform .fusion-search-form-content {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%
+}
+
+.searchform .fusion-search-form-content .fusion-search-field {
+  flex-grow: 1
+}
+
+.searchform .fusion-search-form-content .fusion-search-field input {
+  background-color: #fff;
+  border: 1px solid #d2d2d2;
+  color: #747474;
+  font-size: 13px;
+  padding: 8px 15px;
+  height: 33px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0
+}
+
+.searchform .fusion-search-form-content .fusion-search-button input[type=submit] {
+  background: #000;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: 1em;
+  height: 33px;
+  line-height: 33px;
+  margin: 0;
+  padding: 0;
+  width: 33px;
+  text-indent: 0;
+  font-family: awb-icons;
+  font-weight: 400;
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased
+}
+
+.fusion-row {
+  margin: 0 auto
+}
+
+.fusion-row:after,
+.fusion-row:before {
+  content: " ";
+  display: table
+}
+
+.fusion-row:after {
+  clear: both
+}
+
+strong {
+  font-weight: bolder
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important
+}
+
+.fusion-breadcrumb-sep {
+  padding: 0 5px
+}
+
+.post-content p {
+  margin-top: 0;
+  margin-bottom: 20px
+}
+
+.rich-snippet-hidden {
+  display: none
+}
+
+.fusion-page-load-link {
+  display: none
+}
+
+.fusion-disable-outline input {
+  outline: 0
+}
+
+.single h1.entry-title {
+  margin-top: 0
+}
+
+ul {
+  box-sizing: border-box
+}
+
+:root {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px
+}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  word-wrap: normal !important;
+  border: 0;
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px
+}
