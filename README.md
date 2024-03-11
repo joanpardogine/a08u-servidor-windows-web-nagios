@@ -7,7 +7,7 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 
 ### Primera part
 
-**Primer objectiu**: el primer objectiu d'aquesta activitat és muntar un **servidor web** amb **PHP** a un **Windows 2020**, fent servir **`fastCGI`** i que sigui visible des d'una màquina virtual amb un sistema operatiu client.
+**Primer objectiu**: el primer objectiu d'aquesta activitat és muntar un **servidor web** amb **PHP** a un **Windows 2019** o a un **Windows 2022** , fent servir **`fastCGI`** i que sigui visible des d'una màquina virtual amb un sistema operatiu client.
 
 * Per dur a terme l'activitat, caldrà fer servir el **servidor web `IIS`** (***Internet Information Services***) de **Microsoft**. I instal·lar i configurar  
 
