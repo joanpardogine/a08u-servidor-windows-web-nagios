@@ -1,5 +1,4 @@
-# a08u-servidor-windows-web-nagios
-
+# A08U - Activitat 8: Servidor web IIS, més MV client i preparació entorn per Nagios
 
 ## Objectius
 
