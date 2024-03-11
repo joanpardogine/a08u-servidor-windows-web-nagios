@@ -24,6 +24,19 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 
 Muntar el servidor amb dos discos.
 
+
+## Desactivar que **```Windows Update```** descarregui automàticament els paquets a instal·lar.
+
+![Alt text](./img/image-29.png)
+
+![Alt text](./img/image-30.png)
+
+![Alt text](./img/image-31.png)
+
+![Alt text](./img/image-32.png)
+
+![Alt text](./img/image-34.png)
+
 <!-- 
 > El contingut del fitxer [**``exercici.php``**](./exercici.php) és el següent:
 >```html
