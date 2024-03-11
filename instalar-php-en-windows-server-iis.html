@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html
+  class="avada-html-header-position-top ua-chrome ua-webkit js audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext hashchange geolocation history inputtypes-search inputtypes-tel inputtypes-url inputtypes-email no-inputtypes-datetime inputtypes-date inputtypes-month inputtypes-week inputtypes-time inputtypes-datetime-local inputtypes-number inputtypes-range inputtypes-color postmessage postmessage-structuredclones video video-ogg video-h264 no-video-h265 video-webm video-vp9 no-video-hls no-video-av1 webgl websockets cssanimations backgroundsize borderimage borderradius boxshadow flexbox fontface generatedcontent cssgradients hsla multiplebgs opacity cssreflections rgba textshadow csstransforms supports csstransforms3d csstransitions localstorage sessionstorage websqldatabase svgclippaths inlinesvg smil webworkers"
+  lang="es-ES" data-lt-installed="true"
+  data-useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tutorial - Instalación de IIS en Windows [ Paso a paso ]</title>
+  <link rel="stylesheet" href="./css/estils.css">
+  <link rel="stylesheet" href="./css/rocket-critical-css.css">
+  <link rel="stylesheet" href="./css/css-fb-visibility.css">
+  <link rel="stylesheet" href="./css/recentcomments.css">
+  <link rel="stylesheet" href="./css/fusion-stylesheet-inline-css.css">
+  <link rel="stylesheet" href="./css/fit-vids-style.css">
+</head>
+
+<body
+  class="post-template-default single single-post postid-30862 single-format-standard has-sidebar fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-no avada-image-rollover-no fusion-has-button-gradient fusion-body ltr fusion-sticky-header no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-desktop-totop no-mobile-totop fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow-none layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-classic fusion-main-menu-search-dropdown fusion-avatar-square avada-dropdown-styles avada-blog-layout-large avada-blog-archive-layout-large avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-mainmenu-dropdown-divider avada-has-header-100-width avada-has-main-nav-search-icon avada-has-breadcrumb-mobile-hidden avada-has-titlebar-bar_and_content avada-has-pagination-padding avada-flyout-menu-direction-fade avada-ec-views-v1"
+  data-awb-post-id="30862">
+  <div id="boxed-wrapper">
+    <section class="avada-page-titlebar-wrapper" aria-label="Page Title Bar">
+      <div class="fusion-page-title-bar fusion-page-title-bar-none fusion-page-title-bar-left">
+        <div class="fusion-page-title-row">
+          <div class="fusion-page-title-wrapper">
+            <div class="fusion-page-title-captions">
+              <h1 class="entry-title">Instalación de <code>PHP</code> en <code>IIS</code> </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main id="main" class="clearfix ">
+      <div class="fusion-row">
+        <section id="content">
+          <article id="post-30862"
+            class="post post-30862 type-post status-publish format-standard has-post-thumbnail hentry category-windows-es tag-how-to-install-php-5-6-33-in-windows-server-2012-es tag-how-to-install-php-5-6-33-on-windows-server-2012-es tag-how-to-instal-php-7-2-on-server-2012-iis-es tag-how-to-install-php-with-iis-es tag-how-to-install-php-on-iis-windows-server-windows-server-2012-r2-es tag-how-to-use-php-in-iis-es tag-configuracao-iis-windows-server-2012-php-extjs-es tag-configuring-php-in-iis-8-es tag-configure-php-iis-windows-server-2012-r2-es tag-creation-serveur-web-mysql-sur-win-12-server-es tag-hooking-php-to-iis-webserver-es tag-iis-php-installieren-es tag-iis-windows-server-2012-r2-php-es tag-php-installation-es tag-php-installation-on-iis-es tag-installing-php-on-windows-server-2012-r2-es tag-instalar-apache-php-em-servidor-server-2012-es tag-instalar-apache-windows-server-2012-es tag-install-php-server-2012-es tag-instalar-php-5-6-en-windows-server-2012-es tag-install-php-5-6-on-windows-server-2012-es tag-instalar-php-5-6-en-windows-server-2012-r2-es tag-install-php-on-server-2012-es tag-install-php-on-windows-server-es tag-install-php-on-iis-windows-server-2012-es tag-instalar-php-en-iis-windows-server-2012-es tag-install-php-on-windows-2012-es tag-install-php-on-windows-iis-201-es tag-installing-php-on-windows-server-2012-es tag-install-php-on-windows-server-2012-es tag-instalar-php-en-windows-server-2012-es tag-instalar-php-en-windows-server-2012-r2-es tag-install-php-on-windows-server-2012-r2-es tag-instalar-php-iis-es tag-install-php-iis-7-windows-server-2012-r2-es tag-instalar-php-windows-server-es tag-installing-php-on-windows-server-2012-iis-8-es tag-php-auf-2012-r2-installieren-es tag-php-en-iis-es tag-php-iis-2012r2-es tag-php-is-not-installing-in-iis-on-server-es tag-php-windows-server-2012-es tag-php-winsows-server-es tag-pph-configure-in-iis-es tag-windows-server-2012-r2-es tag-php-server-2012-es tag-subindo-iis-com-php-es tag-windows-server-2012-r2-uninstall-php-es tag-windows-server-2012-iis-website-php-es">
+            <h2 class="entry-title fusion-post-title">Instalación de <code>PHP</code> en <code>IIS</code> </h2>
+            <div class="post-content">
+              <!-- <div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;"> -->
+              <div
+                class="fusion-fullwidth fullwidth-box fusion-builder-row-3 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling">
+                <div class="fusion-builder-row fusion-row">
+                  <!-- <div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last" style="--awb-bg-size:cover;"> -->
+                  <div
+                    class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last">
+                    <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy">
+                      <div class="fusion-text fusion-text-1">
+                        <p>¿Le gustaría aprender a instalar <code>PHP</code> en el servidor <code>IIS</code> ? En este
+                          tutorial, vamos a
+                          mostrarle cómo instalar y configurar <code>PHP</code> en el servidor <code>IIS</code> .</p>
+                        <p>• Windows 2012 R2<br />
+                          • Windows 2016<br />
+                          • Windows 2019<br />
+                          • PHP 7</p>
+                      </div>
+                      <div class="fusion-clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div
+                class="fusion-fullwidth fullwidth-box fusion-builder-row-10 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;">
+                <div class="fusion-builder-row fusion-row">
+                  <div
+                    class="fusion-layout-column fusion_builder_column fusion-builder-column-9 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last"
+                    style="--awb-bg-size:cover;">
+                    <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy">
+                      <div class="fusion-text fusion-text-10">
+                        <h2>Tutorial <code>IIS</code> - Instalación de <code>PHP</code> en Windows</h2>
+                      </div>
+                      <div class="fusion-text fusion-text-11">
+                        <p>En primer lugar, necesitamos acceder al <a href="./error404.html">sitio
+                            web de <code>PHP</code> para Windows.</a></p>
+                        <p>Localice y descargue las versiones no seguras para subprocesos (NTS) de <code>PHP</code>.</p>
+                      </div>
+                      <img src="./img/php-windows-download.jpg" alt="php-windows-download.jpg">
+
+                      <div class="fusion-text fusion-text-12">
+                        <p>En nuestro ejemplo, se descargó el siguiente archivo:
+                          <code>php-7.2.9-nts-Win32-VC15-x86.zip</code>.</p>
+                        <p>Cree un directorio llamado <code>PHP</code> en la raíz
+                          de su unidad <code>C</code>.</p>
+                        <p>Extraiga el contenido del archivo dentro de la carpeta <code>C:\PHP</code>.</p>
+                      </div>
+                      <img src="./img/Windows-PHP-Folder.jpg" alt="Windows-PHP-Folder.jpg">
+                      <div class="fusion-text fusion-text-13">
+                        <p><code>PHP</code> para Windows requiere la instalación de una versión específica de Microsoft
+                          Visual
+                          Studio.</p>
+                        <p>En nuestro ejemplo, descargamos la compilación del paquete <code>PHP VC15</code>.</p>
+                        <p><code>PHP Build VC 15</code> requiere la instalación de <code>Microsoft Visual Studio</code> versión 2017.
+                        </p>
+                      </div>
+                      <img src="./img/PHP-Visual-Studio.jpg" alt="PHP-Visual-Studio.jpg">
+                      <div class="fusion-text fusion-text-14">
+                        <p>Descargue e instale <a href="./error404.html">Microsoft
+                            Visual Studio versión 2017 x86</a>.</p>
+                      </div>
+                      <img src="./img/Visual-Studio-installation-x86.jpg" alt="Visual-Studio-installation-x86.jpg">
+                      <div class="fusion-text fusion-text-15">
+                        <p>Después de finalizar la instalación de <strong>Visual Studio</strong>, necesitamos agregar
+                          <code>C:\PHP</code> a la
+                          variable de entorno <code>PATH</code>.</p>
+                        <p>Acceda a la ventana <code>Propiedades del sistema</code>.</p>
+                        <p>Acceda a la pestaña <code>Avanzadas</code> y haga clic en el botón <code>Variables de entorno</code>.</p>
+                      </div>
+                      <img src="./img/System-properties-windows.jpg" alt="System-properties-windows.jpg">
+                      <div class="fusion-text fusion-text-16">
+                        <p>Seleccione la variable <code>PATH</code> y haga clic en el botón <code>Editar</code>.</p>
+                      </div>
+                      <img src="./img/path-variable.jpg" alt="path-variable.jpg">
+                      <div class="fusion-text fusion-text-17">
+                        <p>Agregue el directorio <code>PHP</code> al final del
+                          valor de la variable <code>PATH</code>.</p>
+                      </div>
+                      <p><code>C:\PHP</code></p>
+
+                      <img src="./img/PHP-path-variable.jpg" alt="PHP-path-variable.jpg">
+                      <div class="fusion-text fusion-text-18">
+                        <p>Abra la aplicación del explorador de Windows y acceda a la carpeta <code>PHP</code>.</p>
+                        <p>Localice el archivo denominado <code>PHP.INI-PRODUCTION</code>.</p>
+                      </div>
+
+                      <img src="./img/php-ini-production.jpg" alt="php-ini-production.jpg">
+                      <div class="fusion-text fusion-text-19">
+                        <p>Cambie el nombre de <code>PHP.INI-PRODUCTION</code> a
+                          <code>PHP.INI</code>.
+                        </p>
+                        <p>Edite el archivo llamado <code>PHP.INI</code>.</p>
+                        <p>Aquí está el archivo original, antes de nuestra configuración:</p>
+                      </div>
+                      <div class="fons-gris">
+                        <code>
+                            ; date.timezone = <br>
+                            ; fastcgi.impersonate = 1<br>
+                            ; cgi.fix_pathinfo=1<br>
+                            ; cgi.force_redirect = 1<br>
+                            ; extension_dir = "ext"<br>
+                            ; extension=bz2<br>
+                            ; extension=curl<br>
+                            ; extension=gd2<br>
+                            ; extension=ldap<br>
+                            ; extension=mbstring<br>
+                            ; extension=mysqli<br>
+                            ; extension=openssl<br>
+                            
+                          </code>
+                      </div>
+
+
+
+                      <div
+                        class="fusion-syntax-highlighter-container fusion-syntax-highlighter-2 fusion-syntax-highlighter-theme-dark"
+                        style="opacity:0;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-size:14px;border-width:1px;border-style:solid;border-color:#e0dede;">
+                      </div>
+                      <div class="fusion-clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fusion-fullwidth fullwidth-box fusion-builder-row-11 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;">
+                <div class="fusion-builder-row fusion-row">
+                  <div
+                    class="fusion-layout-column fusion_builder_column fusion-builder-column-10 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last"
+                    style="--awb-bg-size:cover;">
+                    <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy">
+                      <div class="fusion-text fusion-text-20">
+                        <p>Aquí está el archivo, después de nuestra configuración.</p>
+                        <p>Tenga en cuenta que su archivo de <code><b style="font-size: large;">zona horaria</b></code>
+                          <code>PHP</code> puede no ser el mismo mío.
+                        </p>
+                      </div>
+                      <div class="fons-gris">
+                        <code>date.timezone = America/Sao_Paulo<br>
+                            fastcgi.impersonate = 1<br>
+                            cgi.fix_pathinfo=1<br>
+                            cgi.force_redirect = 0<br>
+                            extension_dir = "ext"<br>
+                            extension=bz2<br>
+                            extension=curl<br>
+                            extension=gd2<br>
+                            extension=ldap<br>
+                            extension=mbstring<br>
+                            extension=mysqli<br>
+                            extension=openssl<br>
+                          </code>
+
+
+
+                        <div class="fusion-clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="fusion-fullwidth fullwidth-box fusion-builder-row-12 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                  style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;">
+                  <div class="fusion-builder-row fusion-row">
+                    <div
+                      class="fusion-layout-column fusion_builder_column fusion-builder-column-11 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last"
+                      style="--awb-bg-size:cover;">
+                      <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy">
+                        <div class="fusion-text fusion-text-21">
+                          <p>Pruebe la instalación de <code>PHP</code>.</p>
+                          <p>Abra un símbolo del sistema de DOS y escriba el siguiente comando.</p>
+                        </div>
+                        <div class="fons-gris">
+                          <code>C:\> php -info<br>
+                              phpinfo()<br>
+                              PHP Version => 7.2.9<br>
+                              System => Windows NT TECH-DC01 6.3 build 9600 (Windows Server 2012 R2 Standard dition) i586<br>
+                              Build Date => Aug 15 2018 23:05:53<br>
+                              Compiler => MSVC15 (Visual C++ 2017)<br>
+                              Architecture => x86<br>
+                          </code>
+                        </div>
+                        <div class="fusion-clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="fusion-fullwidth fullwidth-box fusion-builder-row-13 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                  style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;">
+                  <div class="fusion-builder-row fusion-row">
+                    <div
+                      class="fusion-layout-column fusion_builder_column fusion-builder-column-12 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last"
+                      style="--awb-bg-size:cover;">
+                      <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy">
+                        <div class="fusion-text fusion-text-22">
+                          <h2 class="fons-gris" >¡Felicitaciones! ha instalado <code>PHP</code> en el servidor Windows.</h2>
+                        </div>
+                        <div class="fusion-clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div
+                  class="fusion-fullwidth fullwidth-box fusion-builder-row-15 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                  style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;">
+                  <div class="fusion-builder-row fusion-row">
+                    <div
+                      class="fusion-layout-column fusion_builder_column fusion-builder-column-14 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last"
+                      style="--awb-bg-size:cover;">
+                      <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy">
+                        <div class="fusion-text fusion-text-23">
+                          <h2>Tutorial - Instalación de <code>IIS</code> en Windows</h2>
+                        </div>
+                        <div class="fusion-text fusion-text-24">
+                          <p>Abra la aplicación <code>Administrador del servidor</code>.</p>
+                          <p>Acceda al menú <code>Administrar</code> y haga clic en <code>Agregar roles y características</code>.</p>
+                        </div>
+                        <img src="./img/Windows-2012-add-role-1.jpg" alt="Windows-2012-add-role-1.jpg">
+                        <div class="fusion-text fusion-text-25">
+                          <p>Acceda a la pantalla <code>Roles de servidor</code>, seleccione la opción <code>Servidor web (<strong>IIS</strong>)</code> y haga clic
+                            en el botón <code>Siguiente</code>.</p>
+                        </div>
+
+                        <img src="./img/IIS-Installation.jpg" alt="IIS-Installation.jpg">
+
+                        <div class="fusion-text fusion-text-26">
+                          <p>En la siguiente pantalla, haga clic en el botón <code>Agregar características</code>.</p>
+                        </div>
+                        <img src="./img/IIS-Features.jpg" alt="IIS-Features.jpg">
+
+                        <div class="fusion-text fusion-text-27">
+                          <p>En la pantalla del servicio <code>IIS</code> , seleccione la opción <code>CGI</code> y finalice la
+                            instalación.</p>
+                        </div>
+                        <img src="./img/IIS-enable-CGI.png" alt="IIS-enable-CGI.png">
+                        <div class="fusion-text fusion-text-28">
+                          <p>El servidor <code>IIS</code> se instaló en su computadora, pero todavía necesitamos
+                            configurar la
+                            integración <code>PHP</code>.</p>
+                          <p>Abra la aplicación del administrador de <code>IIS</code> y acceda a la opción <code>Asignaciones de controlador</code>.</p>
+                        </div>
+                        <img src="./img/IIS-Handles-Mappings.jpg" alt="IIS-Handles-Mappings.jpg">
+                        <div class="fusion-text fusion-text-29">
+                          <p>En la parte derecha de la pantalla, seleccione la opción denominada: <code>Agregar asignación de módulos</code>.</p>
+                          <p>En la pantalla <code>Asignación de módulos</code>, deberá introducir la siguiente información:</p>
+                          • <b>Request Path</b> - <code>*.php</code><br>
+                          • <b>Module</b> - <code>FastCGIModule</code><br>
+                          • <b>Executable</b> - <code>C:\php\php-cgi.exe</code><br>
+                          • <b>Name</b> - <code>PHP</code><br>
+                        </div>
+                      </div>
+                      <img src="./img/PHP-Module-IIS.jpg" alt="PHP-Module-IIS.jpg">
+
+                      <div class="fusion-text fusion-text-30">
+                        <p>Haga clic en el botón denominado: <code>Solicitar restricciones</code>.</p>
+                        <p>Seleccione la opción <code>Archivo o Carpeta</code> y haga clic en el botón <code>Aceptar</code>.</p>
+                      </div>
+                      <img src="./img/IIS-PHP-Request-Restrictions.jpg" alt="IIS-PHP-Request-Restrictions.jpg">
+                      <div class="fusion-text fusion-text-31">
+                        <p>Haga clic en el botón <code>Aceptar</code>.</p>
+                        <p>Si se presenta el siguiente mensaje, haga clic en el botón <code>Sí</code>.</p>
+                      </div>
+                      <img src="./img/IIS-Module-mapping.jpg" alt="IIS-Module-mapping.jpg">
+                      <div class="fusion-text fusion-text-32">
+                        <p>Ahora, necesitamos configurar <code>IIS</code> para aceptar <code>index.php</code> como una página
+                          predeterminada.
+                        </p>
+                        <p>Abra la aplicación del administrador de <code>IIS</code> y acceda a la opción <code>Documento predeterminado</code>.
+                        </p>
+                      </div>
+                      <img src="./img/IIS-default-page-PHP.png" alt="IIS-default-page-PHP.png">
+                      <div class="fusion-text fusion-text-33">
+                        <p>En la parte derecha de la pantalla, seleccione la opción denominada: <code>Añadir...</code></p>
+                        <p>En la ventana <code>Agregar documento predeterminado</code>, deberá introducir la siguiente información:
+                        </p>
+                      </div>
+                      <div class="fons-gris">
+                        <code>
+                          <code>index.php</code>
+                        </code>
+                      </div>
+                      <img src="./img/IIS-PHP-support.jpg" alt="IIS-PHP-support.jpg">
+                      <div class="fusion-text fusion-text-34">
+                        <p>Para finalizar la instalación, debe reiniciar el servicio <code>IIS</code> .</p>
+                        <p>Haga clic con el botón derecho en el nombre del servidor en la parte superior izquierda de
+                          la pantalla y seleccione la opción <code>Detener</code>.</p>
+                      </div>
+                      <img src="./img/IIS-stop.jpg" alt="IIS-stop.jpg">
+                      <div class="fusion-text fusion-text-35">
+                        <p>Haga clic con el botón derecho en el nombre del servidor en la parte superior izquierda de
+                          la pantalla y seleccione la opción <code>Iniciar</code>.</p>
+                      </div>
+                      <img src="./img/IIS-start.jpg" alt="IIS-start.jpg">
+                      <div class="fusion-text fusion-text-36">
+                        <h2 class="fons-gris" >¡Felicitaciones! Ha instalado <code>PHP</code> en el servidor Windows.</h2>
+                        <p>El servidor <code>IIS</code> ahora es compatible con el uso de <code>PHP</code>.</p>
+                      </div>
+                      <div class="fusion-clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fusion-fullwidth fullwidth-box fusion-builder-row-16 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;">
+                <div class="fusion-builder-row fusion-row">
+                  <div
+                    class="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last"
+                    style="--awb-bg-size:cover;">
+                    <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy">
+                      <div class="fusion-text fusion-text-37">
+                        <h2>Prueba de la instalación de <code>PHP</code> en Windows <code>IIS</code> </h2>
+                        <p>Abra la aplicación del bloc de notas y cree un documento denominado test.php</p>
+                        <p>Este documento se debe colocar dentro de la carpeta <code>wwwroot</code>.</p>
+                      </div>
+                      <div class="fons-gris">
+                        <code>
+                                  &nbsp;&lt;?php<br>
+                                  &nbsp;&nbsp;&nbsp;phpinfo();<br>
+                                  &nbsp;?>
+                                </code>
+                      </div>
+
+                      <div class="fusion-clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fusion-fullwidth fullwidth-box fusion-builder-row-17 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;">
+                <div class="fusion-builder-row fusion-row">
+                  <div
+                    class="fusion-layout-column fusion_builder_column fusion-builder-column-16 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last"
+                    style="--awb-bg-size:cover;">
+                    <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy">
+                      <div class="fusion-text fusion-text-38">
+                        <p>Abra el explorador e introduzca la dirección IP del servidor web <code>IIS</code> más
+                          <code>/test.php</code></p>
+                        <p>En nuestro ejemplo, se introdujo la siguiente URL en el navegador:</p>
+                        <div class="fons-gris">
+                          <code>
+                            <p>http://</code><b>&lt;laIpDelVostreServidor></b><code>/test.php</p>
+                          </code>
+                        </div>
+                        <p>Se debe presentar el siguiente contenido.</p>
+                      </div>
+                      <img src="./img/php-configuration-file.jpg" alt="php-configuration-file.jpg">
+                      <div class="fusion-text fusion-text-39">
+                        <p>La instalación de <code>PHP</code> en <code>IIS</code> se ha probado correctamente.</p>
+                      </div>
+                      <div class="fusion-clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+  </div>
+  </div>
+</body>
+
+</html>
