@@ -14,7 +14,7 @@
 
 ### Tutorial `IIS` - Instalación de `PHP` en Windows
 
-En primer lugar, necesitamos acceder al [sitio web de `PHP` para Windows.](https://windows.php.net/download/)
+En primer lugar, necesitamos acceder al [sitio web de **`PHP` para Windows**](https://windows.php.net/download/).
 
 Localice y descargue las versiones **Non Thread Safe NTS** (***no seguras para subprocesos***) de **`PHP`**.
 
@@ -70,7 +70,7 @@ Edite el archivo llamado `PHP.INI`.
 
 Aquí está el archivo original, antes de nuestra configuración:
 
-```
+```ini
 ;date.timezone = 
 ;fastcgi.impersonate = 1 
 ;cgi.fix_pathinfo=1 
@@ -89,8 +89,8 @@ Aquí está el archivo, después de nuestra configuración.
 
 Tenga en cuenta que su archivo de `**zona horaria**` `PHP` puede no ser el mismo mío.
 
-`
-date.timezone = America/Sao_Paulo
+```ini
+date.timezone = Europe/Madrid
 fastcgi.impersonate = 1
 cgi.fix_pathinfo=1
 cgi.force_redirect = 0
@@ -102,25 +102,29 @@ extension=ldap
 extension=mbstring
 extension=mysqli
 extension=openssl
-`
+```
 
 Pruebe la instalación de `PHP`.
 
 Abra un símbolo del sistema de DOS y escriba el siguiente comando.
 
-`C:\> php -info   phpinfo()   PHP Version => 7.2.9   System => Windows NT TECH-DC01 6.3 build 9600 (Windows Server 2012 R2 Standard dition) i586   Build Date => Aug 15 2018 23:05:53   Compiler => MSVC15 (Visual C++ 2017)   Architecture => x86   `
 
-¡Felicitaciones! ha instalado `PHP` en el servidor Windows.
------------------------------------------------------------
+```
+C:\> php -info
 
-  
+phpinfo()
+PHP Version => 7.2.9
+System => Windows NT TECH-DC01 6.3 build 9600 (Windows Server 2012 R2 Standard dition) i586
+Build Date => Aug 15 2018 23:05:53
+Compiler => MSVC15 (Visual C++ 2017)
+Architecture => x86
+```
 
-* * *
+### ¡Felicitaciones! ha instalado `PHP` en el servidor Windows.
 
-  
-
-Tutorial - Instalación de `IIS` en Windows
-------------------------------------------
+<hr>  
+ 
+## Tutorial - Instalación de `IIS` en Windows
 
 Abra la aplicación `Administrador del servidor`.
 
@@ -128,7 +132,7 @@ Acceda al menú `Administrar` y haga clic en `Agregar roles y características`.
 
 ![Windows-2012-add-role-1.jpg](./img/Windows-2012-add-role-1.jpg)
 
-Acceda a la pantalla `Roles de servidor`, seleccione la opción `Servidor web (**IIS**)` y haga clic en el botón `Siguiente`.
+Acceda a la pantalla `Roles de servidor`, seleccione la opción **`Servidor web`** (**`IIS`**) y haga clic en el botón `Siguiente`.
 
 ![IIS-Installation.jpg](./img/IIS-Installation.jpg)
 
@@ -179,7 +183,7 @@ En la parte derecha de la pantalla, seleccione la opción denominada: `Añadir..
 
 En la ventana `Agregar documento predeterminado`, deberá introducir la siguiente información:
 
-`` `index.php` ``
+**`index.php`**
 
 ![IIS-PHP-support.jpg](./img/IIS-PHP-support.jpg)
 
@@ -193,25 +197,32 @@ Haga clic con el botón derecho en el nombre del servidor en la parte superior i
 
 ![IIS-start.jpg](./img/IIS-start.jpg)
 
-¡Felicitaciones! Ha instalado `PHP` en el servidor Windows.
------------------------------------------------------------
+### ¡Felicitaciones! Ha instalado `PHP` en el servidor Windows.
+
+<hr>
 
 El servidor `IIS` ahora es compatible con el uso de `PHP`.
 
-Prueba de la instalación de `PHP` en Windows `IIS`
---------------------------------------------------
+## Prueba de la instalación de `PHP` en Windows `IIS`
 
 Abra la aplicación del bloc de notas y cree un documento denominado test.php
 
 Este documento se debe colocar dentro de la carpeta `wwwroot`.
 
- `<?php      phpinfo();    ?>`
+[**```test.php```**](./test.php)
+
+
+```php
+<?php
+      phpinfo();
+?>`
+```
 
 Abra el explorador e introduzca la dirección IP del servidor web `IIS` más `/test.php`
 
 En nuestro ejemplo, se introdujo la siguiente URL en el navegador:
 
-`http://`**<laIpDelVostreServidor>**`/test.php`
+`http://`**&lt;`laIpDelVostreServidor`>**`/test.php`
 
 Se debe presentar el siguiente contenido.
 
