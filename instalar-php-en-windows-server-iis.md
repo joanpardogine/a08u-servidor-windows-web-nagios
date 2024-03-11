@@ -1,56 +1,54 @@
-  Tutorial - Instalación de IIS en Windows \[ Paso a paso \]      
+# Tutorial - Instalación de IIS en Windows
 
-Instalación de `PHP` en `IIS`
-=============================
-
-Instalación de `PHP` en `IIS`
------------------------------
+## Instalación de `PHP` en `IIS`
 
 ¿Le gustaría aprender a instalar `PHP` en el servidor `IIS` ? En este tutorial, vamos a mostrarle cómo instalar y configurar `PHP` en el servidor `IIS` .
 
-• Windows 2012 R2  
-• Windows 2016  
-• Windows 2019  
-• PHP 7
+ * Windows 2012 R2  
 
-Tutorial `IIS` - Instalación de `PHP` en Windows
-------------------------------------------------
+ * Windows 2016  
 
-En primer lugar, necesitamos acceder al [sitio web de `PHP` para Windows.](./error404.html)
+ * Windows 2019  
 
-Localice y descargue las versiones no seguras para subprocesos (NTS) de `PHP`.
+ * PHP 7
+
+### Tutorial `IIS` - Instalación de `PHP` en Windows
+
+En primer lugar, necesitamos acceder al [sitio web de `PHP` para Windows.](https://windows.php.net/download/)
+
+Localice y descargue las versiones **Non Thread Safe NTS** (***no seguras para subprocesos***) de **`PHP`**.
 
 ![php-windows-download.jpg](./img/php-windows-download.jpg)
 
-En nuestro ejemplo, se descargó el siguiente archivo: `php-7.2.9-nts-Win32-VC15-x86.zip`.
+En nuestro ejemplo, se descargó el siguiente archivo: **`php-7.2.9-nts-Win32-VC15-x86.zip`**.
 
-Cree un directorio llamado `PHP` en la raíz de su unidad `C`.
+Cree un directorio llamado `PHP` en la raíz de su unidad **`C`**.
 
-Extraiga el contenido del archivo dentro de la carpeta `C:\PHP`.
+Extraiga el contenido del archivo dentro de la carpeta **`C:\PHP`**.
 
 ![Windows-PHP-Folder.jpg](./img/Windows-PHP-Folder.jpg)
 
-`PHP` para Windows requiere la instalación de una versión específica de Microsoft Visual Studio.
+`PHP` para Windows requiere la instalación de una versión específica de **`Microsoft Visual Studio`**.
 
 En nuestro ejemplo, descargamos la compilación del paquete `PHP VC15`.
 
-`PHP Build VC 15` requiere la instalación de `Microsoft Visual Studio` versión 2017.
+`PHP Build VC 15` requiere la instalación de **`Microsoft Visual Studio`** versión **`2017`**.
 
 ![PHP-Visual-Studio.jpg](./img/PHP-Visual-Studio.jpg)
 
-Descargue e instale [Microsoft Visual Studio versión 2017 x86](./error404.html).
+Descargue e instale [**`Microsoft Visual Studio versión 2017 x86`**](https://aka.ms/vs/15/release/VC_redist.x86.exe).
 
 ![Visual-Studio-installation-x86.jpg](./img/Visual-Studio-installation-x86.jpg)
 
 Después de finalizar la instalación de **Visual Studio**, necesitamos agregar `C:\PHP` a la variable de entorno `PATH`.
 
-Acceda a la ventana `Propiedades del sistema`.
+Acceda a la ventana **`Propiedades del sistema`**.
 
-Acceda a la pestaña `Avanzadas` y haga clic en el botón `Variables de entorno`.
+Acceda a la pestaña **`Avanzadas`** y haga clic en el botón **`Variables de entorno`**.
 
 ![System-properties-windows.jpg](./img/System-properties-windows.jpg)
 
-Seleccione la variable `PATH` y haga clic en el botón `Editar`.
+Seleccione la variable **`PATH`** y haga clic en el botón **`Editar`**.
 
 ![path-variable.jpg](./img/path-variable.jpg)
 
@@ -72,13 +70,39 @@ Edite el archivo llamado `PHP.INI`.
 
 Aquí está el archivo original, antes de nuestra configuración:
 
-`; date.timezone =   ; fastcgi.impersonate = 1   ; cgi.fix_pathinfo=1   ; cgi.force_redirect = 1   ; extension_dir = "ext"   ; extension=bz2   ; extension=curl   ; extension=gd2   ; extension=ldap   ; extension=mbstring   ; extension=mysqli   ; extension=openssl   `
+```
+;date.timezone = 
+;fastcgi.impersonate = 1 
+;cgi.fix_pathinfo=1 
+;cgi.force_redirect = 1 
+;extension_dir = "ext" 
+;extension=bz2 
+;extension=curl 
+;extension=gd2 
+;extension=ldap 
+;extension=mbstring 
+;extension=mysqli 
+;extension=openssl
+```
 
 Aquí está el archivo, después de nuestra configuración.
 
 Tenga en cuenta que su archivo de `**zona horaria**` `PHP` puede no ser el mismo mío.
 
-`date.timezone = America/Sao_Paulo   fastcgi.impersonate = 1   cgi.fix_pathinfo=1   cgi.force_redirect = 0   extension_dir = "ext"   extension=bz2   extension=curl   extension=gd2   extension=ldap   extension=mbstring   extension=mysqli   extension=openssl   `
+`
+date.timezone = America/Sao_Paulo
+fastcgi.impersonate = 1
+cgi.fix_pathinfo=1
+cgi.force_redirect = 0
+extension_dir = "ext"
+extension=bz2
+extension=curl
+extension=gd2
+extension=ldap
+extension=mbstring
+extension=mysqli
+extension=openssl
+`
 
 Pruebe la instalación de `PHP`.
 
