@@ -11,7 +11,7 @@
     function obtenerDireccionesIP() {
         $direcciones = array();
 
-        // Verificar si la función getifaddrs() está disponible
+        // Intentar obtener las direcciones IP utilizando getifaddrs()
         if (function_exists('getifaddrs')) {
             // Obtener todas las interfaces de red del servidor
             $interfaces = getifaddrs();
@@ -22,6 +22,11 @@
                     $direcciones[] = $interface->addr;
                 }
             }
+        }
+
+        // Si getifaddrs() no está disponible, intentar obtener direcciones IP alternativamente
+        if (empty($direcciones)) {
+            $direcciones = gethostbynamel($_SERVER['SERVER_NAME']);
         }
 
         return $direcciones;
