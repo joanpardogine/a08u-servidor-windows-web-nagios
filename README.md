@@ -6,9 +6,9 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 
 ### Primera part
 
-**Primer objectiu**: el primer objectiu d'aquesta activitat és muntar un **servidor web** amb **PHP** a un **Windows 2019** o a un **Windows 2022** , fent servir **`fastCGI`** i que sigui visible des d'una màquina virtual amb un sistema operatiu client.
+**Primer objectiu**: el primer objectiu d'aquesta activitat és muntar un **servidor web** amb **PHP** a un **Windows 2019** o a un **Windows 2022**, fent servir **`fastCGI`** i que sigui visible des d'una màquina virtual amb un sistema operatiu client.
 
-* Per dur a terme l'activitat, caldrà fer servir el **servidor web `IIS`** (***Internet Information Services***) de **Microsoft**. I instal·lar i configurar  
+* Per dur a terme l'activitat, caldrà fer servir el **servidor web `IIS`** (***Internet Information Services***) de **Microsoft**. I instal·lar i configurar:
 
 * Aquesta és la pàgina web [**``info.php``**](./info.php) escrita amb **PHP** que estarà allotjada al servidor i caldrà veure des del client.
 
@@ -20,7 +20,7 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 >?>
 >```
 
-### **Apartat extra**
+### **Apartat extra 1**
 
 Muntar el servidor amb dos discos.
 
@@ -92,6 +92,13 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 * [Instalación de PHP en IIS](https://techexpert.tips/es/windows-es/instalar-php-en-windows-server-iis/)
 
 * [Tutorial de Windows 2012 - Instalación de IIS](https://techexpert.tips/es/windows-es/instalacion-de-iis-en-windows/)
+
+<hr>
+
+### **Apartat extra 2**
+
+Muntar el mòdul de **Python** en el **servidor web**  
+
 
 * [Tutorial de Windows - Instalación de Python](https://techexpert.tips/es/iis-es/habilitar-python-en-iis/)
 
