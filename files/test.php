@@ -11,13 +11,16 @@
     function obtenerDireccionesIP() {
         $direcciones = array();
 
-        // Obtener todas las interfaces de red del servidor
-        $interfaces = getifaddrs();
+        // Verificar si la función getifaddrs() está disponible
+        if (function_exists('getifaddrs')) {
+            // Obtener todas las interfaces de red del servidor
+            $interfaces = getifaddrs();
 
-        foreach ($interfaces as $interface) {
-            // Filtrar solo las entradas IPv4 e IPv6
-            if (isset($interface->addr) && ($interface->family === AF_INET || $interface->family === AF_INET6)) {
-                $direcciones[] = $interface->addr;
+            foreach ($interfaces as $interface) {
+                // Filtrar solo las entradas IPv4 e IPv6
+                if (isset($interface->addr) && ($interface->family === AF_INET || $interface->family === AF_INET6)) {
+                    $direcciones[] = $interface->addr;
+                }
             }
         }
 
@@ -35,15 +38,22 @@
 
         // Mostrar el nombre del servidor y todas las direcciones IP
         $nombre_servidor = $_SERVER['SERVER_NAME'];
-        $direcciones_ip = obtenerDireccionesIP();
 
         echo "<p>Nombre del servidor: $nombre_servidor</p>";
-        echo "<p>Direcciones IP del servidor:</p>";
-        echo "<ul>";
-        foreach ($direcciones_ip as $ip) {
-            echo "<li>$ip</li>";
+
+        // Intentar obtener las direcciones IP del servidor
+        $direcciones_ip = obtenerDireccionesIP();
+
+        if (!empty($direcciones_ip)) {
+            echo "<p>Direcciones IP del servidor:</p>";
+            echo "<ul>";
+            foreach ($direcciones_ip as $ip) {
+                echo "<li>$ip</li>";
+            }
+            echo "</ul>";
+        } else {
+            echo "<p>No se pudo obtener la información de las direcciones IP.</p>";
         }
-        echo "</ul>";
     }
     ?>
 
