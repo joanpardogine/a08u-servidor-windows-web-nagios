@@ -10,9 +10,9 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 
 * Per dur a terme l'activitat, caldrà fer servir el **servidor web `IIS`** (***Internet Information Services***) de **Microsoft**. I instal·lar i configurar:
 
-* Aquesta és la pàgina web [**``info.php``**](./info.php) escrita amb **PHP** que estarà allotjada al servidor i caldrà veure des del client.
+* Aquesta és la pàgina web [**``info.php``**](./files/info.php) escrita amb **PHP** que estarà allotjada al servidor i caldrà veure des del client.
 
-> El contingut del fitxer [**``info.php``**](./info.php) és el següent:
+> El contingut del fitxer [**``info.php``**](./files/info.php) és el següent:
 >
 >```php
 ><?php
@@ -99,8 +99,45 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 Muntar el mòdul de **Python** en el **servidor web**  
 
-
 * [Tutorial de Windows - Instalación de Python](https://techexpert.tips/es/iis-es/habilitar-python-en-iis/)
+
+<hr>
+
+### **Apartat extra 3**
+
+Crear una pàgina web amb **Python** en el **servidor web** que demani el nom de l'usuari i mostri el nom de l'usuari i l'adreça IP del servidor. El contingut del fitxer [**``prova.php``**](./files/prova.php) és el següent:
+
+```php
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Informació del nostre Servidor</title>
+    </head>
+    <body>
+        <h1>Informació del nostre Servidor</h1>
+        <?php
+        // Per demanar el nom a l'usuari
+        $nom = isset($_POST['nom']) ? htmlspecialchars($_POST['nom']) : '';
+        // Mostrar el nom entrat per l'usuari
+        if (!empty($nom)) {
+            echo "<p>Hola $nom!</p>";
+        }
+        // Mostrar el nom del servidor i les seves adreces IP
+        $nom_servidor = $_SERVER['SERVER_NAME'];
+        $ip_servidor = gethostbyname($nom_servidor);
+        echo "<p>Nom del servidor: $nom_servidor</p>";
+        echo "<p>Adreça IP del servidor: $ip_servidor</p>";
+        ?>
+        <form method="post" action="">
+            <label for="nom">Entra el teu nom:</label>
+            <input type="text" name="nom" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
+```
 
 <hr>
 
