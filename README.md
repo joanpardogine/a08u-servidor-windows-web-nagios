@@ -91,9 +91,9 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 * [Instalación de PHP en IIS](https://techexpert.tips/es/windows-es/instalar-php-en-windows-server-iis/)
 
-> [!INFO]
+> [!TIP]
 > 
-> > [!INFO]
+> > [!WARNING]
 > >
 > > ### Els fitxers que feu servir si seguiu l'anterior enllaç els podeu trobar aquí:
 > >
