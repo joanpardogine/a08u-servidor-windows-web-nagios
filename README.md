@@ -91,6 +91,16 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 * [Instalación de PHP en IIS](https://techexpert.tips/es/windows-es/instalar-php-en-windows-server-iis/)
 
+> [!WARNING]
+>
+> ### Els fitxers que feu servir si seguiu l'anterior enllaç els podeu trobar aquí:
+>
+> **En nuestro ejemplo, se descargó el siguiente archivo:** [**`php-7.2.9-nts-Win32-VC15-x86.zip`**](./files/php-7.2.9-nts-Win32-VC15-x86.zip).
+>
+> **Descargue e instale** [`**Microsoft Visual Studio versión 2017 x86**`](./files/VC_redist.x86.exe).
+>
+> 
+
 * [Tutorial de Windows 2012 - Instalación de IIS](https://techexpert.tips/es/windows-es/instalacion-de-iis-en-windows/)
 
 <hr>
@@ -103,7 +113,7 @@ Muntar el mòdul de **Python** en el **servidor web**
 
 <hr>
 
-### **Apartat extra 3**
+<!-- ### **Apartat extra 3**
 
 Crear una pàgina web amb **Python** en el **servidor web** que demani el nom de l'usuari i mostri el nom de l'usuari i l'adreça IP del servidor. El contingut del fitxer [**``prova.php``**](./files/prova.php) és el següent:
 
@@ -137,9 +147,7 @@ Crear una pàgina web amb **Python** en el **servidor web** que demani el nom de
         </form>
     </body>
 </html>
-```
-
-<hr>
+``` -->
 
 <!-- 
 > El contingut del fitxer [**``exercici.php``**](./exercici.php) és el següent:
@@ -188,10 +196,21 @@ Crear una pàgina web amb **Python** en el **servidor web** que demani el nom de
 
 Si en el servidor s'ha compatit la carpeta **`c:\recurs_compartit`** com **`recurs_compartit`**, a la màquina virtual client cal crear una unitat compartida **`Z:`** com **`\\<ip del vostre servidor>\recurs_compartit`**.
 
-
 ### Tercera part
 
-**Tercer objectiu**: cal que preparem un entorn per poder fer la següent activitat que fareu amb l'Iván Nieto. L'activitat es basarà en instal·lar i configurar un **`Nagios`**. Però no ens avancem, ja arribarà.
+**Tercer objectiu**: el tercer objectiu d'aquesta activitat és que el servidor Windows també la màquina virtual client es pugui enllaçar una unitat compartida del servidor com a unitat del client.
+
+* Per exemple:
+
+Si en el servidor del vostre company ha compatit la carpeta **`c:\recurs_compartit`** com **`recurs_compartit`**, a la màquina virtual client cal crear una unitat compartida **`Y:`** com **`\\<ip del servidor del vostre company>\recurs_compartit`**.
+
+### **Apartat extra de la tercera part**
+
+Automatitzar el fet que quan un usuari es connecti, automàticament se li connecti la unitat compartida **`Y:`** com **`\\<ip del servidor del vostre company>\recurs_compartit`**.
+
+### Quarta part
+
+**Quart objectiu**: cal que preparem un entorn per poder fer la següent activitat que fareu amb l'Iván Nieto. L'activitat es basarà en instal·lar i configurar un **`Nagios`**. Però no ens avancem, ja arribarà.
 
 És per aquest darrer objectiu que cal que fem servir les adreces IP que es faciliten a continuació.
 
