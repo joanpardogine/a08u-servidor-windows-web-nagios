@@ -91,15 +91,17 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 * [Instalación de PHP en IIS](https://techexpert.tips/es/windows-es/instalar-php-en-windows-server-iis/)
 
-> [!WARNING]
->
-> ### Els fitxers que feu servir si seguiu l'anterior enllaç els podeu trobar aquí:
->
-> **En nuestro ejemplo, se descargó el siguiente archivo:** [**`php-7.2.9-nts-Win32-VC15-x86.zip`**](./files/php-7.2.9-nts-Win32-VC15-x86.zip).
->
-> **Descargue e instale** [`**Microsoft Visual Studio versión 2017 x86**`](./files/VC_redist.x86.exe).
->
+> [!INFO]
 > 
+> > [!INFO]
+> >
+> > ### Els fitxers que feu servir si seguiu l'anterior enllaç els podeu trobar aquí:
+> >
+> > **En nuestro ejemplo, se descargó el siguiente archivo:** [**`php-7.2.9-nts-Win32-VC15-x86.zip`**](./files/php-7.2.9-nts-Win32-VC15-x86.zip).
+> >
+> > **Descargue e instale** [**`Microsoft Visual Studio versión 2017 x86`**](./files/VC_redist.x86.exe).
+> >
+> > 
 
 * [Tutorial de Windows 2012 - Instalación de IIS](https://techexpert.tips/es/windows-es/instalacion-de-iis-en-windows/)
 
