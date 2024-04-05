@@ -4,7 +4,7 @@
 
 Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne tingui TOTES les màquines funcionant al vostre portàtil. Aquesta és una condició imprescindible per poder fer els exàmens d'aquesta avaluació. 
 
-### Primera part
+## Primera part
 
 **Primer objectiu**: el primer objectiu d'aquesta activitat és muntar un **servidor web** amb **PHP** a un **Windows 2019** o a un **Windows 2022**, fent servir **`fastCGI`** i que sigui visible des d'una màquina virtual amb un sistema operatiu client.
 
@@ -20,7 +20,7 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 >?>
 >```
 
-### **Apartat extra 1**
+### **Apartat extra 1** (de la primera part)
 
 Muntar el servidor amb dos discos.
 
@@ -108,7 +108,7 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 <hr>
 
-### **Apartat extra 2**
+### **Apartat extra 2**  (de la primera part)
 
 Muntar el mòdul de **Python** en el **servidor web**  
 
@@ -225,9 +225,9 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 És per aquest darrer objectiu que cal que fem servir les adreces IP que es faciliten a continuació.
 
-### Quarta part
+### Cinquena part
 
-**Quart objectiu**: Si tot funciona com esperem, **TOTS** vosaltres podreu veure **TOTS** els servidor dels vostres companys.
+**Cinquè objectiu**: Si tot funciona com esperem, **TOTS** vosaltres podreu veure **TOTS** els servidor dels vostres companys.
 
 <hr>
 
