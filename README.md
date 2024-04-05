@@ -103,7 +103,6 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 >
 > **Descargue e instale** [**`Microsoft Visual Studio versión 2017 x86`**](./files/VC_redist.x86.exe).
 >
-> 
 
 * [Tutorial de Windows 2012 - Instalación de IIS](https://techexpert.tips/es/windows-es/instalacion-de-iis-en-windows/)
 
@@ -240,7 +239,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Grup 1
 
-|Alumne/a|A<br>IP Windows<br>Server<br>`Xar. Int.`|B<br>IP Server<br>Windows<br>`BRIDGE`|D<br>IP Windows<br>Client<br>`Xar. Int.`|C<br><br>IP Switch (host)<br>`Ethernet`|E<br>IP Linux<br>Nagios<br>`Xar. Int.`|
+|Alumne/a|A<br>IP Windows<br>Server<br>`BRIDGE`|B<br>IP Windows<br>Server<br>`Xar. Int.`|C<br>IP Windows<br>Client<br>`Xar. Int.`|D<br>IP Linux<br>Nagios<br>`Xar. Int.`|E<br><br>IP Switch (host)<br>`Ethernet`|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Agustí Corbella, Oriol|192.168.100.10 /24|192.168.100.11 /24|192.168.100.12 /24|192.168.100.13 /24|192.168.100.14 /24|
 |Lamela Garcia, Alvaro Haoan|192.168.100.15 /24|192.168.100.16 /24|192.168.100.17 /24|192.168.100.18 /24|192.168.100.19 /24|
@@ -250,7 +249,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Grup 2
 
-|Alumne/a|A<br>IP Windows<br>Server<br>`Xar. Int.`|B<br>IP Server<br>Windows<br>`BRIDGE`|D<br>IP Windows<br>Client<br>`Xar. Int.`|C<br><br>IP Switch (host)<br>`Ethernet`|E<br>IP Linux<br>Nagios<br>`Xar. Int.`|
+|Alumne/a|A<br>IP Windows<br>Server<br>`BRIDGE`|B<br>IP Windows<br>Server<br>`Xar. Int.`|D<br>IP Windows<br>Client<br>`Xar. Int.`|D<br>IP Linux<br>Nagios<br>`Xar. Int.`|E<br><br>IP Switch (host)<br>`Ethernet`|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Boada Cirera, Jan|192.168.100.30 /24|192.168.100.31 /24|192.168.100.32 /24|192.168.100.33 /24|192.168.100.34 /24|
 |Cot Fontanella, Marc|192.168.100.35 /24|192.168.100.36 /24|192.168.100.37 /24|192.168.100.38 /24|192.168.100.39 /24|
@@ -260,7 +259,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Grup 3
 
-|Alumne/a|A<br>IP Windows<br>Server<br>`Xar. Int.`|B<br>IP Server<br>Windows<br>`BRIDGE`|D<br>IP Windows<br>Client<br>`Xar. Int.`|C<br><br>IP Switch (host)<br>`Ethernet`|E<br>IP Linux<br>Nagios<br>`Xar. Int.`|
+|Alumne/a|A<br>IP Windows<br>Server<br>`BRIDGE`|B<br>IP Windows<br>Server<br>`Xar. Int.`|D<br>IP Windows<br>Client<br>`Xar. Int.`|D<br>IP Linux<br>Nagios<br>`Xar. Int.`|E<br><br>IP Switch (host)<br>`Ethernet`|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Navarro Galan, Gerard|192.168.100.50 /24|192.168.100.51 /24|192.168.100.52 /24|192.168.100.53 /24|192.168.100.54 /24|
 |Rueda Guàrdia, Marc|192.168.100.55 /24|192.168.100.56 /24|192.168.100.57 /24|192.168.100.58 /24|192.168.100.59 /24|
@@ -269,7 +268,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Grup 4
 
-|Alumne/a|A<br>IP Windows<br>Server<br>`Xar. Int.`|B<br>IP Server<br>Windows<br>`BRIDGE`|D<br>IP Windows<br>Client<br>`Xar. Int.`|C<br><br>IP Switch (host)<br>`Ethernet`|E<br>IP Linux<br>Nagios<br>`Xar. Int.`|
+|Alumne/a|A<br>IP Windows<br>Server<br>`BRIDGE`|B<br>IP Windows<br>Server<br>`Xar. Int.`|D<br>IP Windows<br>Client<br>`Xar. Int.`|D<br>IP Linux<br>Nagios<br>`Xar. Int.`|E<br><br>IP Switch (host)<br>`Ethernet`|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Capel Vallbona, Marc|192.168.100.65 /24|192.168.100.66/24|192.168.100.67 /24|192.168.100.68 /24|192.168.100.69 /24|
 |Codina Garcia, Aleix|192.168.100.70 /24|192.168.100.71/24|192.168.100.72 /24|192.168.100.73 /24|192.168.100.74 /24|
@@ -279,7 +278,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Grup 5
 
-|Alumne/a|A<br>IP Windows<br>Server<br>`Xar. Int.`|B<br>IP Server<br>Windows<br>`BRIDGE`|D<br>IP Windows<br>Client<br>`Xar. Int.`|C<br><br>IP Switch (host)<br>`Ethernet`|E<br>IP Linux<br>Nagios<br>`Xar. Int.`|
+|Alumne/a|A<br>IP Windows<br>Server<br>`BRIDGE`|B<br>IP Windows<br>Server<br>`Xar. Int.`|D<br>IP Windows<br>Client<br>`Xar. Int.`|D<br>IP Linux<br>Nagios<br>`Xar. Int.`|E<br><br>IP Switch (host)<br>`Ethernet`|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Pan, Jiahao|192.168.100.85 /24|192.168.100.86 /24|192.168.100.87 /24|192.168.100.88 /24|192.168.100.89 /24|
 |Pan, Le|192.168.100.90 /24|192.168.100.91 /24|192.168.100.92 /24|192.168.100.93 /24|192.168.100.94 /24|
@@ -289,7 +288,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Grup 6
 
-|Alumne/a|A<br>IP Windows<br>Server<br>`Xar. Int.`|B<br>IP Server<br>Windows<br>`BRIDGE`|D<br>IP Windows<br>Client<br>`Xar. Int.`|C<br><br>IP Switch (host)<br>`Ethernet`|E<br>IP Linux<br>Nagios<br>`Xar. Int.`|
+|Alumne/a|A<br>IP Windows<br>Server<br>`BRIDGE`|B<br>IP Windows<br>Server<br>`Xar. Int.`|D<br>IP Windows<br>Client<br>`Xar. Int.`|D<br>IP Linux<br>Nagios<br>`Xar. Int.`|E<br><br>IP Switch (host)<br>`Ethernet`|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Córdoba Xandri, Oriol|192.168.100.105 /24|192.168.100.106 /24|192.168.100.107 /24|192.168.100.108 /24|192.168.100.109 /24|
 |Garcia Romero, Arnau|192.168.100.110 /24|192.168.100.111 /24|192.168.100.112 /24|192.168.100.113 /24|192.168.100.114 /24|
@@ -299,7 +298,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Grup 7
 
-|Alumne/a|A<br>IP Windows<br>Server<br>`Xar. Int.`|B<br>IP Server<br>Windows<br>`BRIDGE`|D<br>IP Windows<br>Client<br>`Xar. Int.`|C<br><br>IP Switch (host)<br>`Ethernet`|E<br>IP Linux<br>Nagios<br>`Xar. Int.`|
+|Alumne/a|A<br>IP Windows<br>Server<br>`BRIDGE`|B<br>IP Windows<br>Server<br>`Xar. Int.`|D<br>IP Windows<br>Client<br>`Xar. Int.`|D<br>IP Linux<br>Nagios<br>`Xar. Int.`|E<br><br>IP Switch (host)<br>`Ethernet`|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Gálvez Comajuan, Marc|192.168.100.125 /24|192.168.100.126 /24|192.168.100.127 /24|192.168.100.128 /24|192.168.100.129 /24|
 |Martinez Segú, Eric|192.168.100.130 /24|192.168.100.131 /24|192.168.100.132 /24|192.168.100.133 /24|192.168.100.134 /24|
@@ -309,7 +308,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Grup 8
 
-|Alumne/a|A<br>IP Windows<br>Server<br>`Xar. Int.`|B<br>IP Server<br>Windows<br>`BRIDGE`|D<br>IP Windows<br>Client<br>`Xar. Int.`|C<br><br>IP Switch (host)<br>`Ethernet`|E<br>IP Linux<br>Nagios<br>`Xar. Int.`|
+|Alumne/a|A<br>IP Windows<br>Server<br>`BRIDGE`|B<br>IP Windows<br>Server<br>`Xar. Int.`|D<br>IP Windows<br>Client<br>`Xar. Int.`|D<br>IP Linux<br>Nagios<br>`Xar. Int.`|E<br><br>IP Switch (host)<br>`Ethernet`|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Bollero Ruzafa, Ivan|192.168.100.145 /24|192.168.100.146 /24|192.168.100.147 /24|192.168.100.148 /24|192.168.100.149 /24|
 |Casas Lopez, Raul|192.168.100.150 /24|192.168.100.151 /24|192.168.100.152 /24|192.168.100.153 /24|192.168.100.154 /24|
