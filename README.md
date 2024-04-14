@@ -4,7 +4,9 @@
 
 Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne tingui TOTES les màquines funcionant al vostre portàtil. Aquesta és una condició imprescindible per poder fer els exàmens d'aquesta avaluació. 
 
-## Primera part
+## Primera part (**`IIS`** amb **`PHP`** i **`Python`**)
+
+### **Part 1.1.**: Instal·lar **servidor web** a un servidor **Windows 2019** amb **PHP** i **Python**
 
 **Primer objectiu**: el primer objectiu d'aquesta activitat és muntar un **servidor web** amb **PHP** a un **Windows 2019** o a un **Windows 2022**, fent servir **`fastCGI`** i que sigui visible des d'una màquina virtual amb un sistema operatiu client.
 
@@ -20,7 +22,9 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 >?>
 >```
 
-### **Apartat extra 1** (de la primera part)
+<hr>
+
+## **Part 1.2.**: **Apartat extra 1.2.** dos discos
 
 Muntar el servidor amb dos discos.
 
@@ -54,7 +58,7 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 <hr>
 
-## Recomanació
+### Recomanació
 
 És recomanable desactivar que **```Windows Update```** descarregui automàticament els paquets a instal·lar.
 
@@ -89,6 +93,13 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 ### Enllaços d'interes
 
+#### 1r pas instal·lar **`IIS`** a un servidor Windows
+
+* [Tutorial de Windows 2012 - Instalación de IIS](https://techexpert.tips/es/windows-es/instalacion-de-iis-en-windows/)
+
+
+#### 2n pas instal·lar a l'**`IIS`** d'un servidor Windows **`PHP`**
+
 * [Instalación de PHP en IIS](https://techexpert.tips/es/windows-es/instalar-php-en-windows-server-iis/)
 
 > [!TIP]
@@ -104,13 +115,14 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 > **Descargue e instale** [**`Microsoft Visual Studio versión 2017 x86`**](./files/VC_redist.x86.exe).
 >
 
-* [Tutorial de Windows 2012 - Instalación de IIS](https://techexpert.tips/es/windows-es/instalacion-de-iis-en-windows/)
 
 <hr>
 
-### **Apartat extra 2**  (de la primera part)
+## **Part 1.3.**: **Apartat extra 1.3.** **`Python`**
 
 Muntar el mòdul de **Python** en el **servidor web**  
+
+#### Instal·lar a l'**`IIS`** d'un servidor Windows **`Python`**
 
 * [Tutorial de Windows - Instalación de Python](https://techexpert.tips/es/iis-es/habilitar-python-en-iis/)
 
@@ -122,7 +134,24 @@ Muntar el mòdul de **Python** en el **servidor web**
 >
 > **En nuestro ejemplo, descargamos el archivo denominado:** [**`Python-3.8.4-amd64.exe`**](./files/python-3.8.4-amd64.exe).
 > 
+
 <hr>
+
+## **Part 1.4.**: Crear un **lloc web** (***web site***) al vostre servidor
+
+El domini cal que sigui **`smx2.<elVostreCognom><elVostreNom>.cat`**
+
+Per exemple, en el meu cas seria **`smx2.pardojoan.cat`**
+
+Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.server-world.info/en/note?os=Windows_Server_2019&p=iis&f=4) podeu trobar un manual de com crear-ne un.
+
+<hr>
+
+## **Part 1.5.**: Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**
+
+Configurar el servidor web per que mostri una pàgina personalitzada d'**`error 404`**
+
+[IIS - Redirija el error 404 a una página](https://techexpert.tips/es/iis-es/iis-redirija-el-error-404-a-una-pagina/)
 
 <!-- ### **Apartat extra 3**
 
@@ -199,7 +228,7 @@ Crear una pàgina web amb **Python** en el **servidor web** que demani el nom de
 </html>
 ``` -->
 
-### Segona part
+## Segona part **`Servidor de fitxers`**
 
 **Segon objectiu**: hi ha un segon objectiu d'aquesta activitat que és que el servidor Windows també faci de servidor de fitxers. I que a la màquina virtual client es pugui enllaçar una unitat compartida del servidor com a unitat del client.
 
