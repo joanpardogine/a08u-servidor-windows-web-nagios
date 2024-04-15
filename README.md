@@ -154,11 +154,12 @@ Muntar el mòdul de **Python** en el **servidor web**
 
 ## **Part 1.4.**: Crear un **lloc web** (***web site***) al vostre servidor
 
+Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.server-world.info/en/note?os=Windows_Server_2019&p=iis&f=4) podeu trobar un manual de com crear-ne un.
+
 El domini cal que sigui **`smx2.<elVostreCognom><elVostreNom>.cat`**
 
-Per exemple, en el meu cas seria **`smx2.pardojoan.cat`**
+> Per exemple, en el meu cas seria **`smx2.pardojoan.cat`**
 
-Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.server-world.info/en/note?os=Windows_Server_2019&p=iis&f=4) podeu trobar un manual de com crear-ne un.
 
 <hr>
 
@@ -167,6 +168,10 @@ Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.s
 ### **Part 1.5.1.**: Configurar el **`IIS`** per mostrar la pàgina per defecte.
 
 Configurar el servidor web per que mostri una pàgina personalitzada d'**`error 404`**
+
+Cal que activeu dins del **`IIS`** el fet de que mostri aquesta o una altra pàgina quan se li demani un recurs que no estigui disponible.
+
+Podeu seguir el següent enllaç [IIS - Redirija el error 404 a una página](https://techexpert.tips/es/iis-es/iis-redirija-el-error-404-a-una-pagina/) per poder-ho configurar.
 
 Per defecte, quan al **servidor web** (**`IIS`**) se li demana una pàgina web o un recurs que no troba, apareix, per defecte la següent pàgina.
 
@@ -206,10 +211,6 @@ background-color:#555555;}
 ```
 
 Podeu trobar el codi al següent fitxer [404.htm](./files/404.htm)
-
-Cal que activeu dins del **`IIS`** el fet de que mostri aquesta o una altra pàgina quan se li demani un recurs que no estigui disponible.
-
-Podeu seguir el següent enllaç [IIS - Redirija el error 404 a una página](https://techexpert.tips/es/iis-es/iis-redirija-el-error-404-a-una-pagina/) per poder-ho configurar.
 
 ### **Part 1.5.2.**: Personalitzar una mica la pàgina per defecte de l'**`IIS`**
 
