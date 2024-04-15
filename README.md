@@ -7,20 +7,19 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 
 <details><summary>Pitja per veure l'Índex</summary>
 
-*1.* Primera part (**`IIS`** amb **`PHP`** i **`Python`**)
-
-   *1.2.* Apartat extra dos discos
-
-   *1.3.* Instal·lar **`Python`**
-
-   *1.4.* Crear un **lloc web** (***web site***) al vostre servidor
-
-   *1.5.* Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**
+### [*1.* Primera part (**`IIS`** amb **`PHP`** i **`Python`**)](#1-primera-part-iis-amb-php-i-python)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[*1.2.* Apartat extra dos discos](#part-12-apartat-extra-dos-discos)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[*1.3.* Instal·lar **`Python`**](#part-13-installar-python)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[*1.4.* Crear un **lloc web** (***web site***) al vostre servidor](#part-14-crear-un-lloc-web-web-site-al-vostre-servidor)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[*1.5.* Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**](#part-15-mostrar-una-pàgina-personalitzada-per-lerror-404-dhtml)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.5.1.* Configurar el **`IIS`** per mostrar la pàgina per defecte.](#151-configurar-el-iis-per-mostrar-la-pàgina-per-defecte)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.5.2.* Personalitzar una mica la pàgina per defecte de l'**`IIS`**](#152-personalitzar-una-mica-la-pàgina-per-defecte-de-liis)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.5.3.* Personalitzar de manera radical la pàgina per defecte de l'**`IIS`**](#153-personalitzar-de-manera-radical-la-pàgina-per-defecte-de-liis)
 
 </details>
 
 
-## Primera part (**`IIS`** amb **`PHP`** i **`Python`**)
+## 1. Primera part (**`IIS`** amb **`PHP`** i **`Python`**)
 
 ### **Part 1.1.**: Instal·lar **servidor web** a un servidor **Windows 2019** amb **PHP** i **Python**
 
@@ -165,6 +164,8 @@ Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.s
 
 ## **Part 1.5.**: Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**
 
+### **Part 1.5.1.**: Configurar el **`IIS`** per mostrar la pàgina per defecte.
+
 Configurar el servidor web per que mostri una pàgina personalitzada d'**`error 404`**
 
 Per defecte, quan al **servidor web** (**`IIS`**) se li demana una pàgina web o un recurs que no troba, apareix, per defecte la següent pàgina.
@@ -210,11 +211,17 @@ Cal que activeu dins del **`IIS`** el fet de que mostri aquesta o una altra pàg
 
 Podeu seguir el següent enllaç [IIS - Redirija el error 404 a una página](https://techexpert.tips/es/iis-es/iis-redirija-el-error-404-a-una-pagina/) per poder-ho configurar.
 
+### **Part 1.5.2.**: Personalitzar una mica la pàgina per defecte de l'**`IIS`**
+
 Un cop que el servidor ja mostri la pàgina de l'**error 404**, com que ja us he passat el codi **`html`**, cal que personalitzeu la pàgina i que es mostro el següent:
 
 ![alt text](./img/pagina-error-404-joan.png)
 
-O bé que creeu una pàgina una mica més personalitzada, us deixo uns quants exemples de **pàgines 404**:
+### **Part 1.5.3.**: Personalitzar de manera radical la pàgina per defecte de l'**`IIS`**
+
+Ara, cal que creeu una pàgina molt més diferent a la pàgina per defecte de l'**`IIS`**. 
+
+A continuació, us deixo uns quants exemples de **pàgines 404**:
 
 [*Pàgina 404* de ***`lego.com`***](https://www.lego.com/es-es/hola)
 
