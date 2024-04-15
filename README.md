@@ -156,13 +156,15 @@ Muntar el mòdul de **Python** en el **servidor web**
 
 Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.server-world.info/en/note?os=Windows_Server_2019&p=iis&f=4) podeu trobar un manual de com crear-ne un.
 
-El domini cal que sigui **`smx2.<elVostreCognom><elVostreNom>.cat`**
+#### El domini cal que sigui el següent:
+
+### **`smx2.<elVostreCognom><elVostreNom>.cat`**
 
 > Per exemple, en el meu cas seria **`smx2.pardojoan.cat`**
 
-Que el **lloc web** es trobi a la ruta:
+#### Que el **lloc web** es trobi a la ruta
 
-El domini cal que sigui **`C:\inetpub\wwwroot\smx2<elVostreCognom><elVostreNom>cat`**
+### **`C:\inetpub\wwwroot\smx2<elVostreCognom><elVostreNom>cat`**
 
 > Per exemple, en el meu cas seria **`C:\inetpub\wwwroot\smx2pardojoancat`**
 
