@@ -160,10 +160,19 @@ El domini cal que sigui **`smx2.<elVostreCognom><elVostreNom>.cat`**
 
 > Per exemple, en el meu cas seria **`smx2.pardojoan.cat`**
 
+Que el **lloc web** es trobi a la ruta:
+
+El domini cal que sigui **`C:\inetpub\wwwroot\smx2<elVostreCognom><elVostreNom>cat`**
+
+> Per exemple, en el meu cas seria **`C:\inetpub\wwwroot\smx2pardojoancat`**
+
+I cal que pengeu una pàgina web feta per vosaltres.
 
 <hr>
 
 ## **Part 1.5.**: Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**
+
+Un cop que ja tingueu el vostre **lloc web** funcionant correctament, cal que personalitzem les pàgines web que apareguin quan han de mostrar un error. 
 
 ### **Part 1.5.1.**: Configurar el **`IIS`** per mostrar la pàgina per defecte.
 
@@ -177,7 +186,7 @@ Per defecte, quan al **servidor web** (**`IIS`**) se li demana una pàgina web o
 
 ![alt text](./img/pagina-error-404-per-defecte.png)
 
-Aquesta pàgina **`404.htm`** es troba a la ruta **`c:\inteweb\custerr\en-US\`**, i el seu contingut és el següent.
+Aquesta pàgina **`404.htm`** es troba a la ruta **`C:\inetpub\custerr\en-US\`**, i el seu contingut és el següent.
 
 ```html
 <html xmlns="http://www.w3.org/1999/xhtml" data-lt-installed="true"><head>
