@@ -1,8 +1,24 @@
 # A08U - Activitat 8: Servidor web IIS, més MV client i preparació entorn per Nagios
 
-## Objectius
-
 Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne tingui TOTES les màquines funcionant al vostre portàtil. Aquesta és una condició imprescindible per poder fer els exàmens d'aquesta avaluació. 
+
+
+## Índex
+
+<details><summary>Pitja per veure l'Índex</summary>
+
+*1.* Primera part (**`IIS`** amb **`PHP`** i **`Python`**)
+
+   *1.2.* Apartat extra dos discos
+
+   *1.3.* Instal·lar **`Python`**
+
+   *1.4.* Crear un **lloc web** (***web site***) al vostre servidor
+
+   *1.5.* Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**
+
+</details>
+
 
 ## Primera part (**`IIS`** amb **`PHP`** i **`Python`**)
 
@@ -24,7 +40,7 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 
 <hr>
 
-## **Part 1.2.**: **Apartat extra 1.2.** dos discos
+## **Part 1.2.**: **Apartat extra** dos discos
 
 Muntar el servidor amb dos discos.
 
@@ -118,7 +134,7 @@ Es recomana descarregar la versió **7.4.0 non-thread-safe** zip de la pàgina o
 
 <hr>
 
-## **Part 1.3.**: **Apartat extra 1.3.** **`Python`**
+## **Part 1.3.**: Instal·lar **`Python`**
 
 Muntar el mòdul de **Python** en el **servidor web**  
 
@@ -151,7 +167,64 @@ Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.s
 
 Configurar el servidor web per que mostri una pàgina personalitzada d'**`error 404`**
 
-[IIS - Redirija el error 404 a una página](https://techexpert.tips/es/iis-es/iis-redirija-el-error-404-a-una-pagina/)
+Per defecte, quan al **servidor web** (**`IIS`**) se li demana una pàgina web o un recurs que no troba, apareix, per defecte la següent pàgina.
+
+![alt text](./img/pagina-error-404-per-defecte.png)
+
+Aquesta pàgina **`404.htm`** es troba a la ruta **`c:\inteweb\custerr\en-US\`**, i el seu contingut és el següent.
+
+```html
+<html xmlns="http://www.w3.org/1999/xhtml" data-lt-installed="true"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>404 - File or directory not found.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>404 - File or directory not found.</h2>
+  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>
+ </fieldset></div>
+</div>
+
+
+</body></html>
+```
+
+Podeu trobar el codi al següent fitxer [404.htm](./files/404.htm)
+
+Cal que activeu dins del **`IIS`** el fet de que mostri aquesta o una altra pàgina quan se li demani un recurs que no estigui disponible.
+
+Podeu seguir el següent enllaç [IIS - Redirija el error 404 a una página](https://techexpert.tips/es/iis-es/iis-redirija-el-error-404-a-una-pagina/) per poder-ho configurar.
+
+Un cop que el servidor ja mostri la pàgina de l'**error 404**, com que ja us he passat el codi **`html`**, cal que personalitzeu la pàgina i que es mostro el següent:
+
+![alt text](./img/pagina-error-404-joan.png)
+
+O bé que creeu una pàgina una mica més personalitzada, us deixo uns quants exemples de **pàgines 404**:
+
+[*Pàgina 404* de ***`lego.com`***](https://www.lego.com/es-es/hola)
+
+[*Pàgina 404* de ***`github.com`***](https://github.com/holacomestas)
+
+[*Pàgina 404* de ***`marvel.com`***](https://www.marvel.com/test)
+
+[*Pàgina 404* de ***`ginebro.cat`***](https://www.ginebro.cat/test)
+
+I aquí teniu un lloc web amb exemples [***`404-page-examples - weblium.com`***](https://weblium.com/blog/404-page-examples/)
 
 <!-- ### **Apartat extra 3**
 
@@ -227,7 +300,7 @@ Crear una pàgina web amb **Python** en el **servidor web** que demani el nom de
 </body>
 </html>
 ``` -->
-
+<!-- 
 ## Segona part **`Servidor de fitxers`**
 
 **Segon objectiu**: hi ha un segon objectiu d'aquesta activitat que és que el servidor Windows també faci de servidor de fitxers. I que a la màquina virtual client es pugui enllaçar una unitat compartida del servidor com a unitat del client.
@@ -256,7 +329,7 @@ Automatitzar el fet que quan un usuari es connecti, automàticament se li connec
 
 ### Cinquena part
 
-**Cinquè objectiu**: Si tot funciona com esperem, **TOTS** vosaltres podreu veure **TOTS** els servidor dels vostres companys.
+**Cinquè objectiu**: Si tot funciona com esperem, **TOTS** vosaltres podreu veure **TOTS** els servidor dels vostres companys. -->
 
 <hr>
 
