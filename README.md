@@ -178,7 +178,7 @@ Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.s
 I cal que pengeu una pàgina web feta per vosaltres.
 
 <hr> -->
-
+<!-- 
 ## **Part 1.4.**: Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**
 
 Un cop que ja tingueu el vostre **lloc web** funcionant correctament, cal que personalitzem les pàgines web que apareguin quan han de mostrar un error. 
@@ -213,7 +213,7 @@ background-color:#555555;}
 #content{margin:0 0 0 2%;position:relative;}
 .content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
 -->
-</style>
+<!-- </style>
 </head>
 <body>
 <div id="header"><h1>Server Error</h1></div>
@@ -225,8 +225,8 @@ background-color:#555555;}
 </div>
 
 
-</body></html>
-```
+</body></html> -->
+<!-- ```
 
 Podeu trobar el codi al següent fitxer [404.htm](./files/404.htm)
 
@@ -251,6 +251,10 @@ A continuació, us deixo uns quants exemples de **pàgines 404**:
 [*Pàgina 404* de ***`ginebro.cat`***](https://www.ginebro.cat/test)
 
 I aquí teniu un lloc web amb exemples [***`404-page-examples - weblium.com`***](https://weblium.com/blog/404-page-examples/)
+
+-->
+
+
 
 <!-- ### **Apartat extra 3**
 
