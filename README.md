@@ -10,11 +10,18 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 ### [*1.* Primera part (**`IIS`** amb **`PHP`** i **`Python`**)](#1-primera-part-iis-amb-php-i-python)
 #### &nbsp;&nbsp;&nbsp;&nbsp;[*1.2.* Apartat extra dos discos](#part-12-apartat-extra-dos-discos)
 #### &nbsp;&nbsp;&nbsp;&nbsp;[*1.3.* Instal·lar **`Python`**](#part-13-installar-python)
-#### &nbsp;&nbsp;&nbsp;&nbsp;[*1.4.* Crear un **lloc web** (***web site***) al vostre servidor](#part-14-crear-un-lloc-web-web-site-al-vostre-servidor)
-#### &nbsp;&nbsp;&nbsp;&nbsp;[*1.5.* Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**](#part-15-mostrar-una-pàgina-personalitzada-per-lerror-404-dhtml)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.5.1.* Configurar el **`IIS`** per mostrar la pàgina per defecte.](#151-configurar-el-iis-per-mostrar-la-pàgina-per-defecte)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.5.2.* Personalitzar una mica la pàgina per defecte de l'**`IIS`**](#152-personalitzar-una-mica-la-pàgina-per-defecte-de-liis)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.5.3.* Personalitzar de manera radical la pàgina per defecte de l'**`IIS`**](#153-personalitzar-de-manera-radical-la-pàgina-per-defecte-de-liis)
+<!-- #### &nbsp;&nbsp;&nbsp;&nbsp;[*1.4.* Crear un **lloc web** (***web site***) al vostre servidor](#part-14-crear-un-lloc-web-web-site-al-vostre-servidor) -->
+#### &nbsp;&nbsp;&nbsp;&nbsp;[*1.4.* Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**](#14-mostrar-una-pàgina-personalitzada-per-lerror-404-dhtml)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.4.1.* Configurar el **`IIS`** per mostrar la pàgina per defecte.](#part-141-configurar-el-iis-per-mostrar-la-pàgina-per-defecte)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.4.2.* Personalitzar una mica la pàgina per defecte de l'**`IIS`**](#part-142-personalitzar-una-mica-la-pàgina-per-defecte-de-liis)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*1.4.3.* Personalitzar de manera radical la pàgina per defecte de l'**`IIS`**](#part-143-personalitzar-de-manera-radical-la-pàgina-per-defecte-de-liis)
+
+### [*2.* Segona part **`Servidor de fitxers`**](#2-segona-part-servidor-de-fitxers-1)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[*2.1.* Compartir unitat al servidor](#part-21-compartir-unitat-al-servidor)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[*2.2.* Enllaçar una unitat compartida](#part-22-enllaçar-una-unitat-compartida)
+#### &nbsp;&nbsp;&nbsp;&nbsp;[*2.3.* Automatitzar l'enllaç a la unitat compartida](#part-23-automatitzar-lenllaç-a-la-unitat-compartida)
+
+
 
 </details>
 
@@ -150,7 +157,7 @@ Muntar el mòdul de **Python** en el **servidor web**
 > **En nuestro ejemplo, descargamos el archivo denominado:** [**`Python-3.8.4-amd64.exe`**](./files/python-3.8.4-amd64.exe).
 > 
 
-<hr>
+<!-- <hr>
 
 ## **Part 1.4.**: Crear un **lloc web** (***web site***) al vostre servidor
 
@@ -170,13 +177,13 @@ Al següent enllaç a la secció [***IIS : Add Web Sites (GUI)***](https://www.s
 
 I cal que pengeu una pàgina web feta per vosaltres.
 
-<hr>
+<hr> -->
 
-## **Part 1.5.**: Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**
+## **Part 1.4.**: Mostrar una pàgina personalitzada per l'**`ERROR 404`** d'**`HTML`**
 
 Un cop que ja tingueu el vostre **lloc web** funcionant correctament, cal que personalitzem les pàgines web que apareguin quan han de mostrar un error. 
 
-### **Part 1.5.1.**: Configurar el **`IIS`** per mostrar la pàgina per defecte.
+### **Part 1.4.1.**: Configurar el **`IIS`** per mostrar la pàgina per defecte.
 
 Configurar el servidor web per que mostri una pàgina personalitzada d'**`error 404`**
 
@@ -223,13 +230,13 @@ background-color:#555555;}
 
 Podeu trobar el codi al següent fitxer [404.htm](./files/404.htm)
 
-### **Part 1.5.2.**: Personalitzar una mica la pàgina per defecte de l'**`IIS`**
+### **Part 1.4.2.**: Personalitzar una mica la pàgina per defecte de l'**`IIS`**
 
 Un cop que el servidor ja mostri la pàgina de l'**error 404**, com que ja us he passat el codi **`html`**, cal que personalitzeu la pàgina i que es mostro el següent:
 
 ![alt text](./img/pagina-error-404-joan.png)
 
-### **Part 1.5.3.**: Personalitzar de manera radical la pàgina per defecte de l'**`IIS`**
+### **Part 1.4.3.**: Personalitzar de manera radical la pàgina per defecte de l'**`IIS`**
 
 Ara, cal que creeu una pàgina molt més diferent a la pàgina per defecte de l'**`IIS`**. 
 
@@ -319,26 +326,32 @@ Crear una pàgina web amb **Python** en el **servidor web** que demani el nom de
 </body>
 </html>
 ``` -->
-<!-- 
-## Segona part **`Servidor de fitxers`**
 
-**Segon objectiu**: hi ha un segon objectiu d'aquesta activitat que és que el servidor Windows també faci de servidor de fitxers. I que a la màquina virtual client es pugui enllaçar una unitat compartida del servidor com a unitat del client.
+## 2. Segona part **`Servidor de fitxers`**
+
+### **Part 2.1.**: Compartir unitat al servidor
+  
+L'objectiu d'aquesta segona part, és que el **servidor Windows** també faci de **servidor de fitxers**. I que a la màquina virtual client es pugui enllaçar una **unitat compartida del servidor** com a **unitat del client**.
 
 * Per exemple:
 
 Si en el servidor s'ha compatit la carpeta **`c:\recurs_compartit`** com **`recurs_compartit`**, a la màquina virtual client cal crear una unitat compartida **`Z:`** com **`\\<ip del vostre servidor>\recurs_compartit`**.
 
-### Tercera part
+### **Part 2.2.**: Enllaçar una unitat compartida
 
-**Tercer objectiu**: el tercer objectiu d'aquesta activitat és que el servidor Windows també la màquina virtual client es pugui enllaçar una unitat compartida del servidor com a unitat del client.
+EL següent pas és que el servidor Windows també la màquina virtual client es pugui enllaçar una unitat compartida del servidor com a unitat del client.
 
 * Per exemple:
 
 Si en el servidor del vostre company ha compatit la carpeta **`c:\recurs_compartit`** com **`recurs_compartit`**, a la màquina virtual client cal crear una unitat compartida **`Y:`** com **`\\<ip del servidor del vostre company>\recurs_compartit`**.
 
-### **Apartat extra de la tercera part**
+
+### **Part 2.3.**: Automatitzar l'enllaç a la unitat compartida
 
 Automatitzar el fet que quan un usuari es connecti, automàticament se li connecti la unitat compartida **`Y:`** com **`\\<ip del servidor del vostre company>\recurs_compartit`**.
+
+
+<!-- 
 
 ### Quarta part
 
