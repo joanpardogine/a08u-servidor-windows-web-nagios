@@ -351,6 +351,26 @@ Si en el servidor del vostre company ha compatit la carpeta **`c:\recurs_compart
 Automatitzar el fet que quan un usuari es connecti, automàticament se li connecti la unitat compartida **`Y:`** com **`\\<ip del servidor del vostre company>\recurs_compartit`**.
 
 
+## 3. Tercera part **Maquines virtuals amb `VMWare`**
+
+### **Part 3.1.**: Crear una maquina virtual amb `VMWare` - ***Servidor Windows***  
+
+Cal que creeu el servidor d'aquesta activitat amb el programa de **VMWare**. En aquesta ocasió el servidor no cal que tingui les tres **interficies de xarxa**. Només caldrà que tingui dues **interficies de xarxa**, una amb **NAT** (per sortir a Internet) i una altra amb **xarxa interna**, per poder accedir des d'una altra màquina virtual que tingui configurada la mateixa **xarxa interna**.
+
+### **Part 3.2.**: Crear una maquina virtual amb `VMWare` - ***Client Windows***
+
+Cal que creeu la màquina **client Windows** d'aquesta activitat amb el programa de **VMWare**. En aquesta ocasió el client no cal que tingui les dues **interficies de xarxa**. Només caldrà que tingui una **interficie de xarxa**, configurada com **xarxa interna**, per poder accedir des d'una altra màquina virtual que tingui configurada la mateixa **xarxa interna**.**.
+
+## 4. Quarta part **Servidor `FTP`**
+
+### **Part 4.1.**: Instal·lar i configurar en el **servidor Windows** el **servei d'FTP**.
+
+Per poder accedir al servidor FTP des del client. 
+
+### **Part 4.2.**: Configurar el **servei d'FTP** perque calgui validar-se com usuari.
+
+Del servei FTP, cal desactivar la configuració de connexió amb usuari **anonymous**. 
+
 <!-- 
 
 ### Quarta part
