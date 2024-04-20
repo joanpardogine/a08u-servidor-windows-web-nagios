@@ -26,7 +26,7 @@ Aquesta és una activitat que tot i que es farà en grup, cal que cada alumne ti
 </details>
 
 
-## 1. Primera part (**`IIS`** amb **`PHP`** i **`Python`**)
+## 1. Primera part: **`IIS`** amb **`PHP`** i **`Python`**
 
 ### **Part 1.1.**: Instal·lar **servidor web** a un servidor **Windows 2019** amb **PHP** i **Python**
 
@@ -331,7 +331,7 @@ Crear una pàgina web amb **Python** en el **servidor web** que demani el nom de
 </html>
 ``` -->
 
-## 2. Segona part **`Servidor de fitxers`**
+## 2. Segona part: **`Servidor de fitxers`**
 
 ### **Part 2.1.**: Compartir unitat al servidor
   
@@ -355,17 +355,17 @@ Si en el servidor del vostre company ha compatit la carpeta **`c:\recurs_compart
 Automatitzar el fet que quan un usuari es connecti, automàticament se li connecti la unitat compartida **`Y:`** com **`\\<ip del servidor del vostre company>\recurs_compartit`**.
 
 
-## 3. Tercera part **Maquines virtuals amb `VMWare`**
+## 3. Tercera part: **Màquines virtuals amb `VMWare`**
 
-### **Part 3.1.**: Crear una maquina virtual amb `VMWare` - ***Servidor Windows***  
+### **Part 3.1.**: Crear una màquina virtual amb `VMWare` - ***Servidor Windows***  
 
 Cal que creeu el servidor d'aquesta activitat amb el programa de **VMWare**. En aquesta ocasió el servidor no cal que tingui les tres **interficies de xarxa**. Només caldrà que tingui dues **interficies de xarxa**, una amb **NAT** (per sortir a Internet) i una altra amb **xarxa interna**, per poder accedir des d'una altra màquina virtual que tingui configurada la mateixa **xarxa interna**.
 
-### **Part 3.2.**: Crear una maquina virtual amb `VMWare` - ***Client Windows***
+### **Part 3.2.**: Crear una màquina virtual amb `VMWare` - ***Client Windows***
 
 Cal que creeu la màquina **client Windows** d'aquesta activitat amb el programa de **VMWare**. En aquesta ocasió el client no cal que tingui les dues **interficies de xarxa**. Només caldrà que tingui una **interficie de xarxa**, configurada com **xarxa interna**, per poder accedir des d'una altra màquina virtual que tingui configurada la mateixa **xarxa interna**.**.
 
-## 4. Quarta part **Servidor `FTP`**
+## 4. Quarta part: **Servidor `FTP`**
 
 ### **Part 4.1.**: Instal·lar i configurar en el **servidor Windows** el **servei d'FTP**.
 
