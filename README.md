@@ -343,7 +343,7 @@ Si en el servidor s'ha compatit la carpeta **`c:\recurs_compartit`** com **`recu
 
 ### **Part 2.2.**: Enllaçar una unitat compartida
 
-EL següent pas és que el servidor Windows també la màquina virtual client es pugui enllaçar una unitat compartida del servidor com a unitat del client.
+El següent pas és que el servidor Windows també la màquina virtual client es pugui enllaçar una unitat compartida del servidor com a unitat del client.
 
 * Per exemple:
 
