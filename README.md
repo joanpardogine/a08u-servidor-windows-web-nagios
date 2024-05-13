@@ -386,6 +386,8 @@ Cal crear un `script`, que quan s'executi, es connecti automàticament l'**`unit
 
 Cal crear un `script`, que quan s'executi, desconnecti la unitat **`T:`** del client.
 
+[errorlevel.html](https://ss64.com/nt/errorlevel.html)
+
 <!-- 
 
 ### Quarta part
