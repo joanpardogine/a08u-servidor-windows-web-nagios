@@ -382,6 +382,9 @@ Del servei FTP, cal desactivar la configuració de connexió amb usuari **anonym
 
 Cal crear un `script`, que quan s'executi, es connecti automàticament l'**`unitat compartida del servidor`** i aparegui com la unitat **`T:`** del client.
 
+### **Part 5.2.**: Automatitzar la desconnexió de la unitat compartida **`T:`**
+
+Cal crear un `script`, que quan s'executi, desconnecti la unitat **`T:`** del client.
 
 <!-- 
 
