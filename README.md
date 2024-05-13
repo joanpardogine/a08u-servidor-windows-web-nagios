@@ -373,7 +373,15 @@ Per poder accedir al servidor FTP des del client.
 
 ### **Part 4.2.**: Configurar el **servei d'FTP** perque calgui validar-se com usuari.
 
-Del servei FTP, cal desactivar la configuració de connexió amb usuari **anonymous**. 
+Del servei FTP, cal desactivar la configuració de connexió amb usuari **anonymous**.
+
+
+## 5. Cinquena part: **`Script`**
+
+### **Part 5.1.**: Automatitzar l'enllaç a la unitat compartida
+
+Cal crear un `script`, que quan s'executi, es connecti automàticament l'**`unitat compartida del servidor`** i aparegui com la unitat **`T:`** del client.
+
 
 <!-- 
 
